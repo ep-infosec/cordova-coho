@@ -1,0 +1,233 @@
+{
+	"shelljs" : {
+		"manually-verified-versions": [
+			"shelljs@0.2.6"
+		],
+		"license-key": "missing in earlier versions, added in 0.6.0. LICENSE file was present in earlier versions.",
+		"pull-request-to-fix" : "n/a",
+		"verified-license": "BSD-3-clause",
+		"verified-license-notes": "BSD-3-clause is also known as the New BSD license, as specified in its LICENSE file. https://github.com/shelljs/shelljs/blob/master/LICENSE"
+	},
+	"stream-buffers" : {
+		"manually-verified-versions": [
+			"stream-buffers@0.2.6"
+		],
+		"license-key": "missing in earlier versions, added in 2.2.0. UNLICENSE file was present in earlier versions.",
+		"pull-request-to-fix" : "n/a",
+		"verified-license": "Unlicense",
+		"verified-license-notes": "compatible with Apache, due to 'a suitable dedication (to the public domain) by the author(s)' see: http://www.apache.org/legal/resolved.html. https://github.com/samcday/node-stream-buffer/blob/master/UNLICENSE"
+	},
+	"tail" : {
+		"manually-verified-versions": [
+			"tail@0.4.0"
+		],
+		"license-key": "missing in earlier versions, added in 1.0.0. LICENSE file was present in earlier versions.",
+		"pull-request-to-fix" : "n/a",
+		"verified-license": "MIT",
+		"verified-license-notes": "https://github.com/lucagrulla/node-tail/blob/master/LICENSE"
+	},
+	"xcode" : {
+		"manually-verified-versions": [
+			"xcode@0.8.9"
+		],
+		"license-key": "missing. LICENSE file is present.",
+		"pull-request-to-fix" : "https://github.com/alunny/node-xcode/pull/103",
+		"verified-license": "Apache-2.0",
+		"verified-license-notes": "https://github.com/alunny/node-xcode/blob/master/LICENSE"
+	},
+	"xmldom" : {
+		"manually-verified-versions": [
+			"xmldom@0.1.22"
+		],
+		"license-key": "not a compatible SPDX expression, and also used the plural 'licenses' as a key.",
+		"pull-request-to-fix" : "https://github.com/jindw/xmldom/pull/178",
+		"verified-license": "(LGPL or MIT)",
+		"verified-license-notes": "https://github.com/jindw/xmldom/blob/master/LICENSE . Note that the authors have omitted tags in their repo for their npm releases, but the hashes can be grabbed from 'npm info xmldom'"
+	},
+	"properties-parser" : {
+		"manually-verified-versions": [
+			"properties-parser@0.2.3"
+		],
+		"license-key": "not present in 0.2.3 package but is in master. Definitely in 0.3.0 package. No LICENSE file in the repo.",
+		"pull-request-to-fix" : "n/a",
+		"verified-license": "MIT",
+		"verified-license-notes": "https://github.com/xavi-/node-properties-parser/blob/f160e88af8fce4006cde7a537186a4d3ccdccb38/package.json . Note that the authors have omitted tags in their repo for their npm releases, but the hashes can be grabbed from 'npm info properties-parser'"
+	},
+    "uglify-js" : {
+        "manually-verified-versions": [
+            "uglify-js@2.6.2"
+        ],
+        "license-key": "not present in 2.6.2 but added in 2.7.3",
+        "pull-request-to-fix" : "n/a",
+        "verified-license": "BSD-2-clause",
+        "verified-license-notes": "https://github.com/mishoo/UglifyJS2/blob/master/package.json#L6"
+    },
+    "dmd-plugin-cordova-plugin": {
+        "verified-license": "Apache 2",
+        "verified-license-notes": "https://github.com/daserge/dmd-plugin-cordova-plugin/blob/master/LICENSE",
+        "license-key": "missing from package.json"
+    },
+    "domelementtype":{
+        "verified-license": "BSD-2-Clause",
+        "verified-license-notes": "https://github.com/fb55/domelementtype/blob/master/package.json"
+    },
+    "domhandler": {
+        "verified-license": "BSD-2-Clause",
+        "verified-license-notes": "https://github.com/fb55/domhandler/blob/master/package.json#L29"
+    },
+    "domutils": {
+        "verified-license": "BSD-2-Clause",
+        "verified-license-notes": "https://github.com/fb55/domutils/blob/master/package.json#L31"
+    },
+    "handlebars-array": {
+        "verified-license": "BSD-2-Clause",
+        "verified-license-notes": "https://github.com/fb55/domutils/blob/master/package.json#L31"
+    },
+    "promise.prototype.finally": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/es-shims/Promise.prototype.finally/blob/master/package.json#L17"
+    },
+	"valid-identifier" : {
+		"manually-verified-versions": [
+			"valid-identifier@0.0.1"
+		],
+		"license-key": "Present but not SPDX compatible",
+		"pull-request-to-fix" : "https://github.com/purplecabbage/valid-identifier/pull/5",
+		"verified-license": "Apache-2.0",
+		"verified-license-notes": "https://github.com/purplecabbage/valid-identifier/blob/a6562f196f82077c04c9b03545e17fec817a5d92/LICENSE"
+	},
+	"growl" : {
+		"manually-verified-versions": [
+			"growl@1.7.0"
+		],
+		"license-key": "missing from package.json",
+		"pull-request-to-fix" : "n/a",
+		"verified-license": "MIT",
+		"verified-license-notes": "license in README.md, license present in package.json in 1.9.0"
+	},
+    "verror": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/joyent/node-verror/blob/v1.4.0/LICENSE"
+    },
+    "tweetnacl": {
+        "verified-license": "Public Domain",
+        "verified-license-notes": "https://github.com/dchest/tweetnacl-js/blob/master/COPYING.txt"
+    },
+    "ms": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/zeit/ms/blob/master/LICENSE.md"
+    },
+    "jsonify": {
+        "verified-license": "Public Domain",
+        "verified-license-notes": "https://github.com/substack/jsonify/blob/master/package.json#L29"
+    },
+    "indexof": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://www.npmjs.com/package/indexof"
+    },
+    "extsprintf": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/davepacheco/node-extsprintf/blob/master/LICENSE"
+    },
+    "browser-request": {
+        "verified-license": "Apache-2.0",
+        "verified-license-notes": "https://github.com/iriscouch/browser-request/blob/master/LICENSE"
+    },
+    "mime": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/broofa/node-mime/blob/master/LICENSE"
+    },
+    "underscore": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/jashkenas/underscore/blob/master/LICENSE"
+    },
+    "temp": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/bruce/node-temp/blob/master/LICENSE"
+    },
+    "rewire": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/jhnns/rewire/blob/master/LICENSE"
+    },
+    "oauth-sign": {
+        "verified-license": "Apache-2.0",
+        "verified-license-notes": "https://github.com/request/oauth-sign/blob/master/LICENSE"
+    },
+    "forever-agent": {
+        "verified-license": "Apache-2.0",
+        "verified-license-notes": "https://github.com/request/forever-agent/blob/master/LICENSE"
+    },
+    "delayed-stream": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/felixge/node-delayed-stream/blob/master/License"
+    },
+    "ctype": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/rmustacc/node-ctype/blob/master/LICENSE"
+    },
+    "combined-stream": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/felixge/node-combined-stream/blob/master/License"
+    },
+    "aws-sign2": {
+        "verified-license": "Apache-2.0",
+        "verified-license-notes": "https://github.com/request/aws-sign/blob/master/LICENSE"
+    },
+    "assert-plus": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/mcavage/node-assert-plus#license"
+    },
+    "asn1": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/mcavage/node-asn1/blob/master/LICENSE"
+    },
+    "argv": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://www.npmjs.com/package/argv#license"
+    },
+    "unorm": {
+        "verified-license": "MIT || GPL",
+        "verified-license-notes": "https://github.com/walling/unorm/blob/master/LICENSE.md"
+    },
+    "npm": {
+        "verified-license": "Artistic-2.0",
+        "verified-license-notes": "https://issues.apache.org/jira/browse/LEGAL-217"
+    },
+    "dep-graph": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/TrevorBurnham/dep-graph#license"
+    },
+    "jschardet": {
+        "license-notes": "This license is not accepted by ASF, but since it is a dev dependency, we don't ship it or ask our users to download it. We are good. It is a dep of ESLINT. Do a npm ls in your repo to confirm it is only packaged with eslint"
+    },
+    "log-driver": {
+        "verified-license": "ISC",
+        "verified-license-notes": "https://github.com/cainus/logdriver/blob/master/LICENSE",
+        "license-notes": "This is a dev dependency, we don't ship it or ask our users to download it. We are good. It is a dep of nodeunit."
+    },
+    "progress": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/visionmedia/node-progress/blob/1.1.8/LICENSE"
+    },
+    "uncrustify": {
+        "license-notes": "This license is not accepted by ASF, but since it is a dev dependency, we don't ship it or ask our users to download it. We are good. Check that it is only in devDeps in package.json"
+    },
+    "spdx-exceptions": {
+        "verified-license": "CC-BY-3.0",
+        "license-notes": "This is a dev dependency, we don't ship it or ask our users to download it. We are good. It is a dep of eslint-plugin-import."
+    },
+    "spdx-license-ids": {
+        "verified-license": "CC0-1.0",
+        "license-notes": "This is a dev dependency, we don't ship it or ask our users to download it. We are good. It is a dep of eslint-plugin-import."
+    },
+    "color-convert": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/Qix-/color-convert/blob/master/LICENSE",
+        "license-notes": "This is a dev dependency, we don't ship it or ask our users to download it. We are good. It is a dep of eslint."
+    },
+    "speedometer": {
+        "verified-license": "MIT",
+        "verified-license-notes": "https://github.com/mafintosh/speedometer/blob/master/LICENSE",
+        "license-notes": "This is a dep of electron."
+    }
+}

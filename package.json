@@ -1,0 +1,60 @@
+{
+  "name": "cordova-coho",
+  "version": "2.0.0-dev",
+  "description": "Apache Cordova release tool",
+  "main": "./coho",
+  "bin": {
+    "coho": "./coho"
+  },
+  "dependencies": {
+    "chalk": "~0.4",
+    "co": "~4.0",
+    "co-stream": "0.1.1",
+    "glob": "^5.0.14",
+    "got": "^9.6.0",
+    "inquirer": "2.0.0",
+    "jira-client": "4.2.0",
+    "jira-linkify": "^2.3.0",
+    "nlf": "^2.0.1",
+    "opener": "^1.4.1",
+    "optimist": "0.4",
+    "q": "1.4.1",
+    "request": "^2.88.0",
+    "semver": "^4.2.0",
+    "shelljs": "0.1.4",
+    "tar-fs": "^2.0.0",
+    "treeify": "^1.0.1",
+    "xml2js": "0.4.17"
+  },
+  "devDependencies": {
+    "@cordova/eslint-config": "^4.0.0",
+    "cordova-android": "^8.1.0",
+    "cordova-browser": "^6.0.0",
+    "cordova-ios": "^5.0.1",
+    "cordova-windows": "^7.0.0",
+    "jasmine": "^2.5.3",
+    "jasmine-co": "^1.2.2",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run cover",
+    "cover": "nyc jasmine",
+    "lint": "eslint ."
+  },
+  "nyc": {
+    "include": [
+      "src"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  },
+  "repository": "github:apache/cordova-coho",
+  "bugs": "https://github.com/apache/cordova-coho/issues",
+  "engines": {
+    "node": ">=10"
+  },
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0"
+}
